@@ -1,0 +1,276 @@
+"use strict";
+window.QUIZ_TOPICS = [
+  {
+    id: "tecnologia",
+    name: "Tecnología",
+    eyebrow: "IDEAS QUE CONECTAN",
+    icon: "code",
+    color: "mint",
+    description:
+      "De la web al mundo digital. Descubre cuánto sabes del código que nos rodea.",
+    questions: [
+      [
+        "¿Qué lenguaje define la estructura de una página web?",
+        ["HTML", "CSS", "SQL", "Python"],
+        0,
+        "HTML organiza el contenido con elementos como títulos, párrafos, enlaces y formularios.",
+      ],
+      [
+        "¿Para qué se utiliza principalmente CSS en una web?",
+        [
+          "Gestionar contraseñas",
+          "Definir su presentación visual",
+          "Guardar registros en una base de datos",
+          "Crear repositorios",
+        ],
+        1,
+        "CSS controla colores, tipografías, espaciado y distribución del contenido.",
+      ],
+      [
+        "¿Cuál de estas tareas corresponde a JavaScript en el navegador?",
+        [
+          "Diseñar un procesador",
+          "Cambiar la extensión de un archivo",
+          "Responder a un clic y actualizar la página",
+          "Instalar un sistema operativo",
+        ],
+        2,
+        "JavaScript permite añadir comportamiento e interactividad a las páginas.",
+      ],
+      [
+        "¿Qué es Git?",
+        [
+          "Un navegador",
+          "Un lenguaje de estilos",
+          "Un servicio de correo",
+          "Un sistema de control de versiones",
+        ],
+        3,
+        "Git registra cambios en archivos y permite trabajar con distintas versiones de un proyecto.",
+      ],
+      [
+        "¿Qué contiene normalmente un repositorio de código?",
+        [
+          "Archivos del proyecto y su historial de cambios",
+          "Solo imágenes",
+          "Únicamente contraseñas",
+          "Solo archivos del sistema operativo",
+        ],
+        0,
+        "Un repositorio reúne el código y, cuando usa Git, su historial de cambios.",
+      ],
+      [
+        "¿Qué formato representa datos con pares de clave y valor y se usa mucho en la web?",
+        ["MP3", "JSON", "PNG", "GIF"],
+        1,
+        "JSON es un formato de texto para representar e intercambiar datos estructurados.",
+      ],
+      [
+        "¿Qué describe mejor el frontend de una aplicación?",
+        [
+          "La alimentación eléctrica del servidor",
+          "La fabricación de la pantalla",
+          "La interfaz con la que interactúa el usuario",
+          "La conexión física del disco",
+        ],
+        2,
+        "El frontend presenta la interfaz y responde a las acciones del usuario.",
+      ],
+      [
+        "¿Para qué sirve el atributo alt de una imagen HTML?",
+        [
+          "Para convertirla en vídeo",
+          "Para cambiar su nombre",
+          "Para aumentar su tamaño",
+          "Para proporcionar una alternativa textual",
+        ],
+        3,
+        "El texto alternativo comunica el contenido o función de una imagen cuando no se puede ver.",
+      ],
+      [
+        "¿Qué permite hacer localStorage en una aplicación web?",
+        [
+          "Guardar datos de texto en el navegador entre sesiones",
+          "Sincronizar automáticamente todos los dispositivos",
+          "Enviar correos",
+          "Ejecutar consultas SQL en Azure",
+        ],
+        0,
+        "localStorage conserva pares de clave y valor para un origen web en ese navegador; no sincroniza dispositivos.",
+      ],
+      [
+        "¿Qué describe mejor un algoritmo?",
+        [
+          "Una pieza de hardware",
+          "Una secuencia de pasos para resolver una tarea",
+          "Un tipo de pantalla",
+          "Un cable de red",
+        ],
+        1,
+        "Un algoritmo define una secuencia de instrucciones para realizar una tarea o resolver un problema.",
+      ],
+    ],
+  },
+  {
+    id: "ciencia",
+    name: "Ciencia",
+    eyebrow: "PREGUNTAS QUE DESCUBREN",
+    icon: "atom",
+    color: "lavender",
+    description:
+      "Explora la naturaleza, el espacio y esos pequeños porqués de todos los días.",
+    questions: [
+      [
+        "¿Qué órgano impulsa la sangre por el cuerpo humano?",
+        ["El corazón", "El estómago", "El pulmón", "El riñón"],
+        0,
+        "El corazón es un órgano muscular que bombea sangre a través del sistema circulatorio.",
+      ],
+      [
+        "¿Cuál es la fórmula química del agua?",
+        ["CO₂", "H₂O", "O₂", "NaCl"],
+        1,
+        "Una molécula de agua contiene dos átomos de hidrógeno y uno de oxígeno.",
+      ],
+      [
+        "¿Cómo se llama el proceso por el que las plantas convierten energía luminosa en energía química?",
+        ["Evaporación", "Erosión", "Fotosíntesis", "Condensación"],
+        2,
+        "En la fotosíntesis se utiliza energía luminosa para producir compuestos orgánicos.",
+      ],
+      [
+        "¿Cuál es el satélite natural de la Tierra?",
+        ["Marte", "Venus", "El Sol", "La Luna"],
+        3,
+        "La Luna es el satélite natural de la Tierra y orbita alrededor de nuestro planeta.",
+      ],
+      [
+        "¿Qué fuerza mantiene a los planetas en órbita alrededor del Sol?",
+        [
+          "La gravedad",
+          "La fricción del aire",
+          "La fuerza muscular",
+          "La flotación",
+        ],
+        0,
+        "La atracción gravitatoria del Sol modifica la trayectoria de los planetas y permite sus órbitas.",
+      ],
+      [
+        "¿Qué sucede cuando el agua líquida se congela?",
+        [
+          "Se convierte en gas",
+          "Pasa al estado sólido",
+          "Desaparece",
+          "Se convierte en otro elemento",
+        ],
+        1,
+        "La congelación es el cambio de estado de líquido a sólido.",
+      ],
+      [
+        "¿Qué necesita el sonido para propagarse?",
+        [
+          "Solo oscuridad",
+          "Un vacío perfecto",
+          "Un medio material",
+          "Solo luz solar",
+        ],
+        2,
+        "El sonido es una vibración que se propaga por un medio material, como aire, agua o un sólido.",
+      ],
+      [
+        "¿Cuál es la unidad básica estructural y funcional de los seres vivos?",
+        ["El planeta", "La roca", "El cristal", "La célula"],
+        3,
+        "La célula es la unidad básica de la vida; algunos organismos tienen una sola y otros muchas.",
+      ],
+      [
+        "¿Qué planeta del sistema solar es conocido como el planeta rojo?",
+        ["Marte", "Neptuno", "Venus", "Mercurio"],
+        0,
+        "Marte presenta un aspecto rojizo debido a óxidos de hierro en su superficie.",
+      ],
+      [
+        "¿Qué instrumento permite observar objetos muy pequeños, como muchas células?",
+        ["El telescopio", "El microscopio", "El barómetro", "El termómetro"],
+        1,
+        "El microscopio amplía la imagen de objetos demasiado pequeños para observarlos a simple vista.",
+      ],
+    ],
+  },
+  {
+    id: "cultura",
+    name: "Cultura general",
+    eyebrow: "UN MUNDO POR CONOCER",
+    icon: "globe",
+    color: "peach",
+    description:
+      "Viaja entre libros, lugares y arte. Siempre hay algo nuevo por descubrir.",
+    questions: [
+      [
+        "¿Quién escribió Don Quijote de la Mancha?",
+        [
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Pablo Neruda",
+          "Federico García Lorca",
+        ],
+        0,
+        "Miguel de Cervantes publicó la primera parte en 1605 y la segunda en 1615.",
+      ],
+      [
+        "¿Cuál es la capital de Japón?",
+        ["Kioto", "Tokio", "Seúl", "Pekín"],
+        1,
+        "Tokio es la capital de Japón; Kioto fue capital imperial durante muchos siglos.",
+      ],
+      [
+        "¿Cuál es el idioma oficial de Brasil?",
+        ["Francés", "Español", "Portugués", "Italiano"],
+        2,
+        "El portugués es el idioma oficial de Brasil.",
+      ],
+      [
+        "¿En qué país se encuentran las pirámides de Guiza?",
+        ["Grecia", "México", "India", "Egipto"],
+        3,
+        "Las pirámides de Guiza se encuentran en Egipto, cerca de El Cairo.",
+      ],
+      [
+        "¿Cuál es el océano más extenso de la Tierra?",
+        ["Pacífico", "Atlántico", "Índico", "Ártico"],
+        0,
+        "El océano Pacífico tiene la mayor superficie de todos los océanos de la Tierra.",
+      ],
+      [
+        "¿Con qué disciplina artística se asocia principalmente a Ludwig van Beethoven?",
+        ["Pintura", "Música", "Escultura", "Fotografía"],
+        1,
+        "Beethoven fue un compositor y pianista, conocido por obras como sus nueve sinfonías.",
+      ],
+      [
+        "¿Qué río atraviesa París?",
+        ["Nilo", "Amazonas", "Sena", "Támesis"],
+        2,
+        "El río Sena atraviesa París; en sus orillas hay muchos lugares emblemáticos.",
+      ],
+      [
+        "¿Cuál de estos instrumentos tiene un teclado de teclas blancas y negras?",
+        ["Violín", "Flauta", "Trompeta", "Piano"],
+        3,
+        "El teclado del piano acciona martillos que golpean cuerdas para producir sonido.",
+      ],
+      [
+        "¿Cuál es la capital de Ecuador?",
+        ["Quito", "Guayaquil", "Cuenca", "Loja"],
+        0,
+        "Quito es la capital de Ecuador y se encuentra en la región andina.",
+      ],
+      [
+        "¿Qué civilización construyó Machu Picchu?",
+        ["La romana", "La inca", "La egipcia", "La fenicia"],
+        1,
+        "Machu Picchu fue construido por la civilización inca en los Andes del actual Perú.",
+      ],
+    ],
+  },
+];
